@@ -27,7 +27,8 @@ int main(){
     Triangle *t1 = new Triangle(10.0, 10.0, 10.0);
     Triangle *t2 = new Triangle(20.0, 20.0, 20.0);
     Triangle *t3 = new Triangle(10.0, 20.0, 29.0);
-   
+    
+    cout << "Areas de Triangulos: ";
     cout << "Area 1: " << t1->getArea() << endl;
     cout << "Area 2: " << t2->getArea() << endl;
     cout << "Area 3: " << t3->getArea() << endl;
