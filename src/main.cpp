@@ -35,7 +35,8 @@ int main(){
 
     Triangle *triangleList[] = {t1, t2, t3};
 
-    cout << "Area total: " << Triangle::sumAreas(triangleList, 3);
+    cout << "Area total: " << Triangle::sumAreas(triangleList, 3) << endl;
 
+    cout << "t1 is equilateral? " << Triangle::isEquilateral(t1) << endl;
     return 0;
 }
