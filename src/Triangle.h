@@ -28,6 +28,7 @@ class Triangle{
     double getArea();
     void enlarge(double factor);
     void enlarge();
+    Triangle enlargeNew(double factor);
     
     // Static Methods
     static double sumAreas(Triangle *triangle[], int numTriangles)

@@ -42,5 +42,8 @@ int main(){
     t1->enlarge();
     cout << "Area 1 Enlarged: " << t1->getArea() << endl;
 
+    Triangle t4 = t1->enlargeNew(4.0);
+    cout << "Area 4 Enlarged: " << t4.getArea() << endl;
+
     return 0;
 }
