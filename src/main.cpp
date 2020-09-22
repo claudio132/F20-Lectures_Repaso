@@ -38,5 +38,9 @@ int main(){
     cout << "Area total: " << Triangle::sumAreas(triangleList, 3) << endl;
 
     cout << "t1 is equilateral? " << Triangle::isEquilateral(t1) << endl;
+    
+    t1->enlarge();
+    cout << "Area 1 Enlarged: " << t1->getArea() << endl;
+
     return 0;
 }

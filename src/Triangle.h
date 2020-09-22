@@ -26,6 +26,8 @@ class Triangle{
     
     // Instances methos - Interacciones con los objetos
     double getArea();
+    void enlarge(double factor);
+    void enlarge();
     
     // Static Methods
     static double sumAreas(Triangle *triangle[], int numTriangles)
