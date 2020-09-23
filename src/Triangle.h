@@ -30,6 +30,7 @@ class Triangle{
     void enlarge();
     Triangle enlargeNew(double factor);
     bool isLargerThan(Triangle t);
+    int compareTo(Triangle t);
     
     // Static Methods
     static double sumAreas(Triangle *triangle[], int numTriangles)
